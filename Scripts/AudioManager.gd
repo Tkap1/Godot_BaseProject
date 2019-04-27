@@ -47,7 +47,6 @@ func play(sound_file, volume := 0.0, pitch_scale := 1.0, delay := 0.0, start_pos
 			audio_player.volume_db = volume
 			audio_player.pitch_scale = pitch_scale
 			audio_player.play(start_position)
-			playing.push_front(audio_player)
 			return
 	
 	# No unused audio players.
